@@ -89,7 +89,6 @@ function jouer() {
         if (largeurVie < 10 || largeurSommeil < 10) {
             clearInterval(intervalSommeil)
             clearInterval(monInterval)
-            alert("he's dead")
         }
     }
 }
