@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main class="main">
+            <div class="conteneur-barre">
+                <div class="vie"><p class="vie-info">100/100</p></div>
+            </div>
+            <div class="conteneur-barre-sommeil">
+                <div class="sommeil"><p class="sommeil-info">100/100</p></div>
+            </div>
+
+            <img src="./assets/happy.png" class="pikachu" />
+
+            <button class="boutton-nourrir">
+                Nourrir
+                <img
+                    class="image-gateau"
+                    src="./assets/Cake-PNG-File-Cute-Clip-Art-Graphics-21158823-1-1-580x387.png"
+                />
+            </button>
+            <button class="reposer">
+                Dormir
+                <img class="image-gateau" src="./assets/bed.png" />
+            </button>
+
+            <button onclick="jouer()" class="rejouer hidden">Rejouer</button>
+        </main>
+    </body>
+    <script src="./script.js"></script>
+</html>
